@@ -19,6 +19,7 @@ cache:
     - $HOME/.cache/pip
 
 install:
+  - pip install pypandoc
   - pip install tox
 
 script:
